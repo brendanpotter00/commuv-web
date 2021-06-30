@@ -16,6 +16,20 @@ body {
   background-color: #2e3455;
 }
 
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #546074;
+  border: 0;
+  border-radius: 50 px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #263349;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -64,7 +78,11 @@ header ul a {
   padding: 0 1em;
 }
 
-.social-header, .hero-design {
+.social-header {
+  display: none;
+}
+
+.hero-design {
   display: none;
 }
 
@@ -244,6 +262,53 @@ section {
   border: .5px solid white;
 }
 
+/*TESTIMONIALS*/
+.tests {
+  background: #5773be;
+}
+
+.testsUp {
+  background: #5773be;
+}
+
+.tests-container ul li {
+  background: white;
+  padding: 2em;
+  height: 20em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+.tests-container ul li .iconT-container {
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.tests-container ul li .iconT-container.one {
+  width: 80px;
+  border-radius: 10rem;
+}
+
+.tests-container ul li .iconT-container.two {
+  width: 100px;
+}
+
+.tests-container ul li .iconT-container.three {
+  width: 60px;
+}
+
+.tests-container ul li .test-title {
+  font-weight: bold;
+}
+
+.tests-container ul li .featured-desc {
+  margin-bottom: 2em;
+  color: black;
+}
+
 @media only screen and (min-width: 800px) {
   .featured, .portfolio {
     text-align: left;
@@ -266,9 +331,32 @@ section {
   .skills {
     margin-top: -5em;
     margin-bottom: -7em;
-    padding-top: 7em;
+    padding-top: 6em;
+    padding-bottom: -60em;
   }
   .skills-container ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+  }
+  .mission {
+    margin-top: -5em;
+    margin-bottom: -7em;
+    padding-top: 7em;
+  }
+  .testsUp {
+    margin-top: -5em;
+    margin-bottom: -7em;
+    padding-top: 7em;
+  }
+  .tests {
+    margin-top: -5em;
+    margin-bottom: -7em;
+    padding-top: 7em;
+  }
+  .tests-container ul {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (auto)[3];
