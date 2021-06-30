@@ -41,7 +41,7 @@ header {
     padding: 2em;
 
     .logo {
-        color: Swhite;
+        color: white;
         font-weight: bold;
     }
 
@@ -378,8 +378,11 @@ section {
     .hero .content {
         padding: 9em 20em 6em 20em;
     }
-
 }  
+
+@media only screen and (max-width: 450px) {
+    
+}
 
 .circle {
     animation: circleAnim 1s infinite alternate-reverse;
