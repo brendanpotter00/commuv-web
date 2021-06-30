@@ -370,11 +370,7 @@ section {
 }
 @media only screen and (max-width: 450px) {
   .hero {
-    padding-bottom: 14em;
-  }
-
-  .nav-container {
-    height: 10%;
+    padding-bottom: 20em;
   }
 }
 .circle {
