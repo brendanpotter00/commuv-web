@@ -17,6 +17,11 @@ body {
    
 }
 
+.contentContainer {
+    scroll-behavior:  smooth;
+    overflow-y: scroll;
+}
+
 body::-webkit-scrollbar {
     width: 8px;
 }
@@ -193,6 +198,7 @@ section {
 
         &.one {
             width: 50px;
+            border-radius: 20rem;
         }
         &.two {
             width: 100px;
@@ -256,12 +262,19 @@ section {
 .testsUp {
     background: #5773be;
 }
+.tests-container ul {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 1em;
+    padding-left: 3em;
+   
+}
 
 .tests-container ul li {
-
-    background: white;
+    background: rgb(253, 253, 253);
     padding: 2em;
-    height: 20em;
+    height: 25em;
+    width: 13em;
     border-radius: 1em;
     margin-bottom: 1em;
 
@@ -270,26 +283,40 @@ section {
         display: grid;
         place-content: center;
         margin: 0 auto;
-
-
+        
+        .testImg {
+            border-radius: 50%;
+        }
+        
         &.one {
-            width: 80px;
-            border-radius: 10rem;
+            width: 110px;
+           
+            
         }
         &.two {
-            width: 100px;
+            width: 120px;
+            
+            
         }
         &.three {
-            width: 60px;
+            width: 125px;
+            
+        }
+        &.four {
+            width: 100px;
+            
         }
     }
 
     .test-title {
         font-weight: bold;
+
     }
     .featured-desc {
         margin-bottom: 2em;
+        padding-top: 1em;
         color: black;
+        font-size: .8em;
     }
 }
 
@@ -324,7 +351,7 @@ section {
 
     .skills-container ul {
         display: grid;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat(4, auto);
         grid-gap: 1em;
     }
     .mission {
@@ -349,7 +376,7 @@ section {
 
     .tests-container ul {
         display: grid;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat(2, auto);
         grid-gap: 1em;
     }
     
@@ -431,6 +458,63 @@ section {
         width: 100%;
         
     }
+    .tests-container ul {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 1em;
+    }
+
+    /*SIZING OF TEST CARDS*/
+    .tests-container ul li {
+        
+        padding: 2em;
+        height: 20em;
+        width: 10em;
+        border-radius: 1em;
+        margin-bottom: 1em;
+    
+        .iconT-container {
+            height: 100px;
+            display: grid;
+            place-content: center;
+            margin: 0 auto;
+            
+            .testImg {
+                border-radius: 50%;
+            }
+            
+            &.one {
+                width: 90px;
+               
+                
+            }
+            &.two {
+                width: 100px;
+                
+                
+            }
+            &.three {
+                width: 105px;
+                
+            }
+            &.four {
+                width: 90px;
+                
+            }
+        }
+    
+        .test-title {
+            font-weight: bold;
+            font-size: .75em;
+    
+        }
+        .featured-desc {
+            margin-bottom: 2em;
+            padding-top: .2em;
+            color: black;
+            font-size: .65em;
+        }
+    }
 
     .portfolio img {
         float: right;
@@ -453,7 +537,67 @@ section {
 
     .hero .content {
         padding: 6em 8em 6em 10em;
+        
     }
+
+    .tests-container ul {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 1em;
+        
+    }
+    /*SIZING OF TEST CARDS*/
+    .tests-container ul li {
+        
+        padding: 2em;
+        height: 20em;
+        width: 12em;
+        border-radius: 1em;
+        margin-bottom: 1em;
+    
+        .iconT-container {
+            height: 100px;
+            display: grid;
+            place-content: center;
+            margin: 0 auto;
+            
+            .testImg {
+                border-radius: 50%;
+            }
+            
+            &.one {
+                width: 90px;
+               
+                
+            }
+            &.two {
+                width: 100px;
+                
+                
+            }
+            &.three {
+                width: 105px;
+                
+            }
+            &.four {
+                width: 90px;
+                
+            }
+        }
+    
+        .test-title {
+            font-weight: bold;
+            font-size: .8em;
+    
+        }
+        .featured-desc {
+            margin-bottom: 2em;
+            padding-top: .2em;
+            color: black;
+            font-size: .7em;
+        }
+    }
+    
 }
 
 @media only screen and (min-width: 1550px) {
@@ -469,6 +613,59 @@ section {
     .hero .content {
         padding: 9em 20em 6em 20em;
     }
+
+    /*SIZING OF TEST CARDS*/
+    .tests-container ul li {
+        
+        padding: 2em;
+        height: 20em;
+        width: 15em;
+        border-radius: 1em;
+        margin-bottom: 1em;
+    
+        .iconT-container {
+            height: 100px;
+            display: grid;
+            place-content: center;
+            margin: 0 auto;
+            
+            .testImg {
+                border-radius: 50%;
+            }
+            
+            &.one {
+                width: 90px;
+               
+                
+            }
+            &.two {
+                width: 100px;
+                
+                
+            }
+            &.three {
+                width: 105px;
+                
+            }
+            &.four {
+                width: 90px;
+                
+            }
+        }
+    
+        .test-title {
+            font-weight: bold;
+            font-size: .9em;
+    
+        }
+        .featured-desc {
+            margin-bottom: 2em;
+            padding-top: .2em;
+            color: black;
+            font-size: .8em;
+        }
+    }
+    
 }  
 
 @media only screen and (max-width: 450px) {
