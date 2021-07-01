@@ -355,7 +355,7 @@ section {
     -ms-grid-columns: (auto)[1];
         grid-template-columns: repeat(1, auto);
     grid-gap: 1em;
-    padding-left: 3em;
+    padding-left: .2em;
   }
   .tests-container ul li {
     padding: 2em;
@@ -590,6 +590,14 @@ section {
   }
   .hero .content {
     padding: 6em 8em 6em 10em;
+  }
+  .testsUp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .tests-container ul {
     display: -ms-grid;
