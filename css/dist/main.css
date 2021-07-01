@@ -253,11 +253,13 @@ section {
 
 .testsUp {
   background: #5773be;
+  display: flex;
+  justify-content: center;
 }
 
 .tests-container ul {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(1, auto);
   grid-gap: 1em;
   padding-left: 3em;
 }
@@ -301,6 +303,57 @@ section {
   font-size: 0.8em;
 }
 
+@media only screen and (min-width: 0px) {
+  .testsUp {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tests-container ul {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 1em;
+    padding-left: 3em;
+  }
+
+  .tests-container ul li {
+    padding: 2em;
+    height: 15em;
+    width: 13em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+  }
+  .tests-container ul li .iconT-container {
+    height: 100px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+  }
+  .tests-container ul li .iconT-container .testImg {
+    border-radius: 50%;
+  }
+  .tests-container ul li .iconT-container.one {
+    width: 100px;
+  }
+  .tests-container ul li .iconT-container.two {
+    width: 105px;
+  }
+  .tests-container ul li .iconT-container.three {
+    width: 115px;
+  }
+  .tests-container ul li .iconT-container.four {
+    width: 95px;
+  }
+  .tests-container ul li .test-title {
+    font-weight: bold;
+    font-size: 0.67em;
+  }
+  .tests-container ul li .featured-desc {
+    margin-bottom: 2em;
+    padding-top: 0.4em;
+    font-size: 0.6em;
+  }
+}
 @media only screen and (min-width: 800px) {
   .featured, .portfolio {
     text-align: left;
@@ -600,7 +653,6 @@ section {
   .tests-container ul li .featured-desc {
     margin-bottom: 2em;
     padding-top: 0.2em;
-    color: black;
     font-size: 0.8em;
   }
 }

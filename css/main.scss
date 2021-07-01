@@ -261,10 +261,12 @@ section {
 }
 .testsUp {
     background: #5773be;
+    display: flex;
+    justify-content: center;
 }
 .tests-container ul {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
     grid-gap: 1em;
     padding-left: 3em;
    
@@ -320,7 +322,74 @@ section {
     }
 }
 
+@media only screen and (min-width: 0px) {
+    
+    .testsUp {
+        
+        display: flex;
+        justify-content: center;
+       
+    }
 
+    .tests-container ul {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-gap: 1em;
+        padding-left: 3em;
+        
+       
+    }
+    .tests-container ul li {
+        
+        padding: 2em;
+        height: 15em;
+        width: 13em;
+        border-radius: 1em;
+        margin-bottom: 1em;
+        
+    
+        .iconT-container {
+            height: 100px;
+            display: grid;
+            place-content: center;
+            margin: 0 auto;
+            
+            .testImg {
+                border-radius: 50%;
+            }
+            
+            &.one {
+                width: 100px;
+               
+                
+            }
+            &.two {
+                width: 105px;
+                
+                
+            }
+            &.three {
+                width: 115px;
+                
+            }
+            &.four {
+                width: 95px;
+                
+            }
+        }
+    
+        .test-title {
+            font-weight: bold;
+            font-size: .67em;
+    
+        }
+        .featured-desc {
+            margin-bottom: 2em;
+            padding-top: .4em;
+            font-size: .6em;
+        }
+    }
+}
 
 @media only screen and (min-width: 800px) {
 
@@ -661,7 +730,7 @@ section {
         .featured-desc {
             margin-bottom: 2em;
             padding-top: .2em;
-            color: black;
+            
             font-size: .8em;
         }
     }
@@ -676,6 +745,8 @@ section {
       
    }
 }
+
+
 
 .circle {
     animation: circleAnim 1s infinite alternate-reverse;

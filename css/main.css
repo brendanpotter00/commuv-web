@@ -275,13 +275,19 @@ section {
 
 .testsUp {
   background: #5773be;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .tests-container ul {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[2];
-      grid-template-columns: repeat(2, auto);
+  -ms-grid-columns: (auto)[1];
+      grid-template-columns: repeat(1, auto);
   grid-gap: 1em;
   padding-left: 3em;
 }
@@ -332,6 +338,63 @@ section {
   padding-top: 1em;
   color: black;
   font-size: .8em;
+}
+
+@media only screen and (min-width: 0px) {
+  .testsUp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tests-container ul {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[1];
+        grid-template-columns: repeat(1, auto);
+    grid-gap: 1em;
+    padding-left: 3em;
+  }
+  .tests-container ul li {
+    padding: 2em;
+    height: 15em;
+    width: 13em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+  }
+  .tests-container ul li .iconT-container {
+    height: 100px;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+  }
+  .tests-container ul li .iconT-container .testImg {
+    border-radius: 50%;
+  }
+  .tests-container ul li .iconT-container.one {
+    width: 100px;
+  }
+  .tests-container ul li .iconT-container.two {
+    width: 105px;
+  }
+  .tests-container ul li .iconT-container.three {
+    width: 115px;
+  }
+  .tests-container ul li .iconT-container.four {
+    width: 95px;
+  }
+  .tests-container ul li .test-title {
+    font-weight: bold;
+    font-size: .67em;
+  }
+  .tests-container ul li .featured-desc {
+    margin-bottom: 2em;
+    padding-top: .4em;
+    font-size: .6em;
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -627,7 +690,6 @@ section {
   .tests-container ul li .featured-desc {
     margin-bottom: 2em;
     padding-top: .2em;
-    color: black;
     font-size: .8em;
   }
 }
