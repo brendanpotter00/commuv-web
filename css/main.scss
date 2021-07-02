@@ -324,6 +324,15 @@ section {
 
 @media only screen and (min-width: 0px) {
     
+    .meet {
+        //background-color:red;
+        display: flex;
+        justify-content: center;
+        .scrollText {
+            //background-color:green;
+        }
+    }
+
     .testsUp {
         
         display: flex;
@@ -593,6 +602,15 @@ section {
 }
 
 @media only screen and (min-width: 1250px) {
+    .meet {
+        //background-color:red;
+        display: flex;
+        justify-content: flex-start;
+        .scrollText {
+            //background-color:green;
+        }
+    }
+    
     header {
         padding: 2em 2em 2em 10em;
     }
@@ -675,6 +693,15 @@ section {
 }
 
 @media only screen and (min-width: 1550px) {
+    .meet {
+        //background-color:red;
+        display: flex;
+        justify-content: flex-start;
+        .scrollText {
+            //background-color:green;
+        }
+    }
+    
     header {
         padding: 2em 2em 2em 20em;
     }

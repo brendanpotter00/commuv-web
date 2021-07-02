@@ -341,6 +341,14 @@ section {
 }
 
 @media only screen and (min-width: 0px) {
+  .meet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .testsUp {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -579,6 +587,14 @@ section {
 }
 
 @media only screen and (min-width: 1250px) {
+  .meet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
   header {
     padding: 2em 2em 2em 10em;
   }
@@ -649,6 +665,14 @@ section {
 }
 
 @media only screen and (min-width: 1550px) {
+  .meet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
   header {
     padding: 2em 2em 2em 20em;
   }

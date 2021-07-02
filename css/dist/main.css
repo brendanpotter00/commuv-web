@@ -304,6 +304,10 @@ section {
 }
 
 @media only screen and (min-width: 0px) {
+  .meet {
+    display: flex;
+    justify-content: center;
+  }
   .testsUp {
     display: flex;
     justify-content: center;
@@ -538,6 +542,10 @@ section {
   }
 }
 @media only screen and (min-width: 1250px) {
+  .meet {
+    display: flex;
+    justify-content: flex-start;
+  }
   header {
     padding: 2em 2em 2em 10em;
   }
@@ -606,6 +614,10 @@ section {
   }
 }
 @media only screen and (min-width: 1550px) {
+  .meet {
+    display: flex;
+    justify-content: flex-start;
+  }
   header {
     padding: 2em 2em 2em 20em;
   }
