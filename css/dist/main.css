@@ -167,6 +167,14 @@ section {
   font-weight: 500;
 }
 
+.contactMe {
+  color: black;
+  margin-bottom: 3em;
+  font-size: 0.9em;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+
 .featured-desc {
   color: white;
   margin-bottom: 3em;
@@ -236,6 +244,101 @@ section {
   display: block;
 }
 
+:root {
+  --bg: #ffffff;
+  --color: rgb(62, 91, 172);
+  --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  padding: 1.5rem 0;
+  filter: url("#goo");
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  background: linear-gradient(0.25turn, #4c6eb9, 50%, #203b74);
+  color: var(--bg);
+  padding: 1em 1em 1em;
+  line-height: 1;
+  border-radius: 1em;
+  position: relative;
+  min-width: 8.23em;
+  text-decoration: none;
+  font-family: var(--font);
+  font-size: 1.25rem;
+}
+
+.button:before,
+.button:after {
+  width: 4.4em;
+  height: 2.95em;
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background: var(--color);
+  border-radius: 50%;
+  transition: transform 1s ease;
+  transform: scale(0);
+  z-index: -1;
+}
+
+.button:before {
+  top: -25%;
+  left: 20%;
+}
+
+.button:after {
+  bottom: -25%;
+  right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+  transform: none;
+}
+
+/*
+.articleBtn:hover {
+    color:#4988da;
+    text-decoration: underline;
+    text-decoration-color: #4988da;
+}
+
+.articleBtn{
+    background:#38476e;
+    margin-top: 1em;
+    margin-left: .5em;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 10rem;
+    width:15rem;
+    height:3rem;
+    transition: all .4s;
+    z-index: 1;
+    overflow: hidden;
+
+}
+*/
+/*
+.articleBtn:before{
+    content:'';
+    position: absolute;
+    left: 0;
+    width:0%;
+    height:10%;
+    background-color: white;
+    transition: all .4s;
+    z-index: -1;
+}
+.articleBtn:hover:before{
+    background-color: #4988da ;
+    width: 100%;
+}
+*/
 .portfolio {
   background-image: linear-gradient(0.25turn, #647094, 50%, #46588b);
 }
@@ -309,6 +412,14 @@ section {
   padding-top: 1em;
   color: black;
   font-size: 0.8em;
+}
+
+.footer {
+  display: flex;
+}
+.footer .contactUs {
+  justify-self: center;
+  color: white;
 }
 
 @media only screen and (min-width: 0px) {
