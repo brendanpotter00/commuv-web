@@ -242,7 +242,6 @@ section {
   /* width of container */
   height: 350px;
   /* height of container */
-  object-fit: cover;
   border: 0.5px solid white;
 }
 
