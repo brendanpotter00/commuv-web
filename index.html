@@ -19,16 +19,16 @@
             <nav>
                 <ul>
                     <li><a href="#featuredDiv">Our App</a></li>
-                    <li><a href="#missionDiv">About</a></li>
+                    <li><a href="#missionDiv">Articles</a></li>
                     <li><a href="#teamMemDiv">Team</a></li>
                 </ul>
             </nav>
         </header>
         <div class="social-header">
             <ul>
-                <li><a href="#"><img src="images/dribbble.png" alt="dribbble"></a></li>
-                <li><a href="#"><img src="images/behance.png" alt="behance"></a></li>
-                <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+                <li><a href="https://www.instagram.com/commuv.app/"><img src="images/insta4.png" alt="dribbble"></a></li>
+                <li><a href="https://www.linkedin.com/company/commuv"><img src="images/linkedin2.png" alt="behance"></a></li>
+                <li><a href="#"><img src="images/twitter6.png" alt="twitter"></a></li>
             </ul>
         </div>
     </div>
@@ -164,28 +164,29 @@
     <div id="missionDiv">
     <section class="mission">
         <div class="missionContainer transition3">
-            <h3 class="skill-title">Read About Us</h3>
+            <h3 class="skill-title">Featured Articles</h3>
                 
-                    <p class="missionStatement">Our mission is to create a safer and efficient transaction between officer and civilian during stressful traffic stops</p>
+                    <p class="missionStatement">"The Stumberg New Venture Competition has narrowed its 2021 field to five promising startups. Commuv, MicroLev, New Works SA, Notch ESports Suppliers, and Wakescoot will all take home $5,000 in seed money, and now move on to the Summer Accelerator phase of the competition."</p>
+
+                    <div class="wrapper">
+                        <a class="button" href="https://www.trinity.edu/news/five-2021-stumberg-finalists-set">Stumberg Finalist 2021</a>
+                    </div>
+                    <!-- Filter: https://css-tricks.com/gooey-effect/ -->
+                    <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <defs>
+                            <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                                <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                            </filter>
+                        </defs>
+                    </svg>
+
+                    <p class="missionStatement">"Commuv founders Jalen White ‘23 and Michael Marquez ‘22 came up with the idea to develop software that connects police officers and drivers during low-level traffic stops via short-range technology and a mobile application. Using an app can help reduce the need for direct contact during traffic stops and translate officer questions if the driver is not fluent in English."</p>
 
                     <div class="articleBtnContainer">
                         <ul>
                         <div class="wrapper">
                             <a class="button" href="https://www.startupssanantonio.com/trinity-university-virtual-stumberg-venture-competition-selects-5-finalists/">Startups San Antonio</a>
-                        </div>
-                        <!-- Filter: https://css-tricks.com/gooey-effect/ -->
-                        <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
-                            <defs>
-                                <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
-                                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-                                    <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
-                                </filter>
-                            </defs>
-                        </svg>
-                    
-               
-                        <div class="wrapper">
-                            <a class="button" href="https://www.trinity.edu/news/five-2021-stumberg-finalists-set">Stumberg Finalist 2021</a>
                         </div>
                         <!-- Filter: https://css-tricks.com/gooey-effect/ -->
                         <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -295,21 +296,17 @@
     
     </div>
     
-    <header>
+    <div class="social-header">
+        <header>
         <a href="index.html" class="logo">Commuv</a>
-        <h4 class="contactUs"> 
-            
-        </h4>
-        <nav>
-            <ul>
-                <li><a href="#"><img src="images/dribbble.png" alt="dribbble"></a></li>
-                <li><a href="#"><img src="images/behance.png" alt="behance"></a></li>
-                <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
-                <li><a href="#">Built by Brendan Potter</a></li>
-                
-            </ul>
-        </nav>
+        <ul>
+            <li><a href="https://www.instagram.com/commuv.app/"><img src="images/insta4.png" alt="dribbble"></a></li>
+            <li><a href="https://www.linkedin.com/company/commuv"><img src="images/linkedin2.png" alt="behance"></a></li>
+            <li><a href="#"><img src="images/twitter6.png" alt="twitter"></a></li>
+            <li><a href="#">Built By Brendan Potter</a></li>
+        </ul>
     </header>
+    </div>
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>

@@ -254,7 +254,7 @@ section {
 }
 
 .missionStatement {  
-    
+    text-align: left;
 }
 
 :root {
@@ -269,7 +269,7 @@ section {
 }
 .wrapper {
     //background-color: white;
-    display: grid;
+    display: inline-block;
     padding: 1rem 0;
     filter: url('#goo');
 }
@@ -758,6 +758,15 @@ section {
     }
     .social-header {
         padding: 2em 10em 2em 0;
+        
+        li {
+           &.twitter {
+            height: 500px;
+           } 
+        }
+        .twitter {
+            height: 500px;
+        }
         
     }
     section {

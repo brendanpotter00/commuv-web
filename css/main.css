@@ -272,6 +272,10 @@ section {
   display: block;
 }
 
+.missionStatement {
+  text-align: left;
+}
+
 :root {
   --bg: #ffffff;
   --color: rgb(62, 91, 172);
@@ -289,8 +293,7 @@ section {
 }
 
 .wrapper {
-  display: -ms-grid;
-  display: grid;
+  display: inline-block;
   padding: 1rem 0;
   -webkit-filter: url("#goo");
           filter: url("#goo");
@@ -766,6 +769,12 @@ section {
   }
   .social-header {
     padding: 2em 10em 2em 0;
+  }
+  .social-header li.twitter {
+    height: 500px;
+  }
+  .social-header .twitter {
+    height: 500px;
   }
   section {
     padding: 10em 10em 4em 10em;
