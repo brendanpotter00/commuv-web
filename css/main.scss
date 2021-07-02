@@ -79,6 +79,9 @@ header {
 .social-header {
     display: none;
 }
+.social-footer {
+   
+}
 
 .hero-design {
     display: none;
@@ -528,6 +531,28 @@ section {
             font-size: .6em;
         }
     }
+    .social-footer {
+        display: none;
+        /*
+        display: block;
+        background-color: red;
+        
+        ul {
+            display: flex;
+            
+            
+            width: 20em;
+            float: right;
+
+            img {
+                width: 20px;
+            }
+        }
+        */
+    }
+    .missionStatement {
+        text-align: center;
+    }
     
 }
 
@@ -564,13 +589,13 @@ section {
         grid-gap: 1em;
     }
     .mission {
-        
         margin-top: -5em;
         margin-bottom: -7em;
         padding-top: 7em;
     
         
     }
+    
 
     .testsUp {
         margin-top: -5em;
@@ -599,6 +624,21 @@ section {
         display: grid;
         grid-template-columns: repeat(2, auto);
         justify-content: center;
+    }
+    .social-footer {
+        display: block;
+        
+        ul {
+            display: flex;
+            justify-content: space-between;
+            
+            width: 1em;
+            float: right;
+
+            img {
+                width: 20px;
+            }
+        }
     }
 
 }
@@ -741,6 +781,21 @@ section {
         grid-template-columns: repeat(2, auto);
         justify-content: center;
     }
+    .social-footer {
+        display: block;
+        
+        ul {
+            display: flex;
+            justify-content: space-between;
+            
+            width: 17em;
+            float: right;
+
+            img {
+                width: 20px;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 1250px) {
@@ -758,15 +813,6 @@ section {
     }
     .social-header {
         padding: 2em 10em 2em 0;
-        
-        li {
-           &.twitter {
-            height: 500px;
-           } 
-        }
-        .twitter {
-            height: 500px;
-        }
         
     }
     section {
@@ -846,6 +892,21 @@ section {
         display: grid;
         grid-template-columns: repeat(2, auto);
         justify-content: center;
+    }
+    .social-footer {
+        display: block;
+        
+        ul {
+            display: flex;
+            justify-content: space-between;
+            
+            width: 17em;
+            float: right;
+
+            img {
+                width: 20px;
+            }
+        }
     }
     
 }

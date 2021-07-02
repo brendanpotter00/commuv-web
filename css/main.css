@@ -553,6 +553,28 @@ section {
     padding-top: .4em;
     font-size: .6em;
   }
+  .social-footer {
+    display: none;
+    /*
+        display: block;
+        background-color: red;
+        
+        ul {
+            display: flex;
+            
+            
+            width: 20em;
+            float: right;
+
+            img {
+                width: 20px;
+            }
+        }
+        */
+  }
+  .missionStatement {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -623,6 +645,22 @@ section {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .social-footer {
+    display: block;
+  }
+  .social-footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 1em;
+    float: right;
+  }
+  .social-footer ul img {
+    width: 20px;
   }
 }
 
@@ -753,6 +791,22 @@ section {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .social-footer {
+    display: block;
+  }
+  .social-footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 17em;
+    float: right;
+  }
+  .social-footer ul img {
+    width: 20px;
+  }
 }
 
 @media only screen and (min-width: 1250px) {
@@ -769,12 +823,6 @@ section {
   }
   .social-header {
     padding: 2em 10em 2em 0;
-  }
-  .social-header li.twitter {
-    height: 500px;
-  }
-  .social-header .twitter {
-    height: 500px;
   }
   section {
     padding: 10em 10em 4em 10em;
@@ -847,6 +895,22 @@ section {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .social-footer {
+    display: block;
+  }
+  .social-footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 17em;
+    float: right;
+  }
+  .social-footer ul img {
+    width: 20px;
   }
 }
 
