@@ -268,12 +268,12 @@ section {
   background: linear-gradient(0.25turn, #4c6eb9, 50%, #203b74);
   color: var(--bg);
   padding: 0.8em;
-  line-height: 0.8;
+  line-height: 1;
   border-radius: 1em;
   position: relative;
   text-decoration: none;
   font-family: var(--font);
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .button:before,
