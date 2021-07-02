@@ -8,7 +8,7 @@ Website for Commuv LLC, to display app features, testimonials, articles, and tea
 <br />
 
 # Live Deploy
-I have deployed this section using Netlify for your convience :) [Click Here](https://commuvwebsite.netlify.app/)
+I have deployed this section using Netlify for viewing. [Click Here](https://commuvwebsite.netlify.app/)
 
 
 <br />
