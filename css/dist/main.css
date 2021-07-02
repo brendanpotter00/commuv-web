@@ -476,23 +476,15 @@ section {
   }
 
   .social-footer {
-    display: none;
-    /*
     display: block;
-    background-color: red;
-
-    ul {
-        display: flex;
-
-
-        width: 20em;
-        float: right;
-
-        img {
-            width: 20px;
-        }
-    }
-    */
+  }
+  .social-footer ul {
+    display: flex;
+    width: 20em;
+    float: right;
+  }
+  .social-footer ul img {
+    width: 20px;
   }
 
   .missionStatement {

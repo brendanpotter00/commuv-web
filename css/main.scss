@@ -532,10 +532,10 @@ section {
         }
     }
     .social-footer {
-        display: none;
-        /*
+        //display: none;
+        
         display: block;
-        background-color: red;
+        //background-color: red;
         
         ul {
             display: flex;
@@ -548,7 +548,7 @@ section {
                 width: 20px;
             }
         }
-        */
+        
     }
     .missionStatement {
         text-align: center;
