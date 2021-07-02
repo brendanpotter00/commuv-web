@@ -3,13 +3,13 @@ Website for Commuv LLC, to display app features, testimonials, articles, and tea
 
 <br />
 
-# live Deploy
-I have deployed this section using Netlify for your convience :) [Click Here](https://commuvwebsite.netlify.app/)
-
+![section](./nytelock-section/src/imgs/section.PNG)
 
 <br />
 
-![section](./nytelock-section/src/imgs/section.PNG)
+# Live Deploy
+I have deployed this section using Netlify for your convience :) [Click Here](https://commuvwebsite.netlify.app/)
+
 
 <br />
 <br />
