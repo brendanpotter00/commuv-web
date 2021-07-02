@@ -263,6 +263,8 @@ section {
   /* width of container */
   height: 350px;
   /* height of container */
+  -o-object-fit: cover;
+     object-fit: cover;
   border: .5px solid white;
 }
 
