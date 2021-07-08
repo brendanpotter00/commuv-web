@@ -534,6 +534,11 @@ section {
     bottom: 60px;
   }
 
+  .inner a img {
+    width: 20px;
+    height: 20px;
+  }
+
   .right-transition3 {
     border-radius: 1rem;
     box-shadow: 2px 2px 5px #3d3d3d;
