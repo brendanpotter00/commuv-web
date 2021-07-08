@@ -540,6 +540,8 @@ section {
   .inner a img {
     width: 20px;
     height: 20px;
+    position: relative;
+    left: 10px;
   }
   .tests-container ul {
     display: -ms-grid;
