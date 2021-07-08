@@ -460,6 +460,13 @@ section {
     background-image: linear-gradient(0.25turn, #647094, 50%, #46588b);
   }
 
+  .inner a img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 10px;
+  }
+
   .tests-container ul {
     display: grid;
     grid-template-columns: repeat(1, auto);
