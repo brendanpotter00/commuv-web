@@ -206,12 +206,17 @@ section {
           box-shadow: 2px 2px 5px #3d3d3d;
 }
 
+.videoWrapper {
+  position: relative;
+  bottom: 100px;
+}
+
 .right-transition3 {
   border-radius: 1rem;
   -webkit-box-shadow: 2px 2px 5px #3d3d3d;
           box-shadow: 2px 2px 5px #3d3d3d;
   width: 100%;
-  height: auto;
+  height: 170%;
 }
 
 .skills {
@@ -464,6 +469,17 @@ section {
 }
 
 @media only screen and (min-width: 0px) {
+  .videoWrapper {
+    position: relative;
+    bottom: 0px;
+  }
+  .right-transition3 {
+    border-radius: 1rem;
+    -webkit-box-shadow: 2px 2px 5px #3d3d3d;
+            box-shadow: 2px 2px 5px #3d3d3d;
+    width: 80%;
+    height: 100%;
+  }
   .articleBtnContainer ul {
     display: -ms-grid;
     display: grid;
@@ -580,6 +596,17 @@ section {
 }
 
 @media only screen and (min-width: 800px) {
+  .videoWrapper {
+    position: relative;
+    bottom: 60px;
+  }
+  .right-transition3 {
+    border-radius: 1rem;
+    -webkit-box-shadow: 2px 2px 5px #3d3d3d;
+            box-shadow: 2px 2px 5px #3d3d3d;
+    width: 100%;
+    height: 125%;
+  }
   .featured, .portfolio {
     text-align: left;
   }
@@ -819,6 +846,17 @@ section {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+  }
+  .videoWrapper {
+    position: relative;
+    bottom: 100px;
+  }
+  .right-transition3 {
+    border-radius: 1rem;
+    -webkit-box-shadow: 2px 2px 5px #3d3d3d;
+            box-shadow: 2px 2px 5px #3d3d3d;
+    width: 100%;
+    height: 170%;
   }
   header {
     padding: 2em 2em 2em 10em;
