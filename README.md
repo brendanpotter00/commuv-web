@@ -1,20 +1,21 @@
-# Commmuv LLC Website
-Website for Commuv LLC, to display app features, testimonials, articles, and team members. I utilized GSAP animations for this website.
 
-<br />
+# Commuv LLC Website
 
-![section](./nytelock-section/src/imgs/section.PNG)
+I developed and updating the Commuv website with GSAP animations, by adding featured articles, testimonials, and various features
 
-<br />
+I analyzed marketing analytics, on HubSpot, to optimize the website, gain additional 100 early users, and increased the average time on 
+page by 200%
 
-# Live Deploy
-I have deployed this section using Netlify for viewing. [Click Here](https://commuvwebsite.netlify.app/)
+# Learned and Problem Solved
+I learned the type of sections needed for business landing pages. I gave them a landing page to display their businesses information.
+
+# Live Deployment
+https://commuvwebsite.netlify.app/
+## Screenshots
+
+![App Screenshot](https://i.imgur.com/NmktMkm.png)
+
+![App Screenshot](https://i.imgur.com/uttf22K.png)
 
 
-<br />
-<br />
-
-## Languages and Technologies
-
-<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+  
